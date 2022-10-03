@@ -1,7 +1,6 @@
 steps:
   - name: ':docker: Build and push Docker image to tink-containers'
     timeout_in_minutes: 30
-    branches: 'master'
     command: |
       # Build
       echo "$BUILDKITE_COMMIT"
